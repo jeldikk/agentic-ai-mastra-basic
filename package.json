@@ -1,0 +1,32 @@
+{
+  "name": "agentic-ai-mastra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-old": "tsc",
+    "start": "node dist/index.js",
+    "dev-old": "tsc --watch",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "mastra": "^1.31.3",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.71.0",
+    "@mastra/duckdb": "^1.11.1",
+    "@mastra/libsql": "^1.23.3",
+    "@mastra/memory": "^1.32.1",
+    "@mastra/observability": "^1.18.1",
+    "dotenv": "^18.0.4",
+    "zod": "^4.6.5"
+  }
+}
