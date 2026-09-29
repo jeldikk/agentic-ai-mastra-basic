@@ -58,3 +58,9 @@ Do not forget to provide **OPENAI_API_KEY** in `.env` file.
 - How to create different read and action tools
 - Integrating tools with agent and test them from mastra studio UI
 
+---
+
+This is the notes of youtube video with title **AI Agents vs. workflows, clearly explained with realistic examples** by `Mastra`. [Link](https://www.youtube.com/watch?v=0jg2g3sNvgw)
+
+**Introduction**
+
